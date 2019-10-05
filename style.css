@@ -1,15 +1,15 @@
 @font-face {
-    font-family: Avenir-Black;
-    src: url(Avenir-Black.ttf);
+    font-family: ModernEra-Black;
+    src: url(ModernEra-Black.woff);
 }
 @font-face {
-    font-family: Avenir-Roman;
-    src: url(Avenir-Roman.ttf);
+    font-family: ModernEra-Regular;
+    src: url(ModernEra-Regular.woff);
 }
 body
 {
     background: #2f2d2e;
-    font-family: 'Avenir-Roman', sans-serif;
+    font-family: 'ModernEra-Regular', sans-serif;
 }
 .header
 {
@@ -20,6 +20,8 @@ body
 {
     background: white;
     height: 10px;
+    width: 45px;
+    float: left;
     margin-bottom: 30px;
 }
 .modern_era_black_50
@@ -27,17 +29,17 @@ body
     color: #fff;
     font-size: 50px;
     line-height: 50px;
-    font-family: 'Avenir-Black', sans-serif;
+    font-family: 'ModernEra-Black', sans-serif;
 }
 .modern_era_black_24
 {
     font-size: 24px;
     color: #fff;
-    font-family: 'Avenir-Black', sans-serif;
+    font-family: 'ModernEra-Black', sans-serif;
 }
 .modern_era_black_18
 {
-    font-family: 'Avenir-Black', sans-serif;
+    font-family: 'ModernEra-Black', sans-serif;
     font-size: 18px;
 }
 .modern_era_bold_18
@@ -85,11 +87,11 @@ input:focus, textarea:focus, select:focus{
     color: #fff;
     font-weight: bold;
     padding: 10px 40px;
-    font-family: 'Avenir-Roman', sans-serif;
+    font-family: 'ModernEra-Regular', sans-serif;
 }
 .footer_links
 {
-    font-family: 'Avenir-Black', sans-serif;
+    font-family: 'ModernEra-Black', sans-serif;
     color: #fff;
     font-size: 18px;
     margin-bottom: 10px;
