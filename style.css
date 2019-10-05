@@ -67,7 +67,7 @@ body
     height: 30px;
     width: 100%;
     border: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 5px solid #fff;
     background: transparent;
     color: #fff;
     font-size: 18px;
@@ -81,12 +81,12 @@ input:focus, textarea:focus, select:focus{
 }
 .button_white
 {
-    border: 2px solid #fff;
+    border: 5px solid #fff;
     background: transparent;
     font-size: 12px;
     color: #fff;
     font-weight: bold;
-    padding: 10px 40px;
+    padding: 10px 80px;
     font-family: 'ModernEra-Regular', sans-serif;
 }
 .footer_links
