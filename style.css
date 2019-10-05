@@ -1,4 +1,119 @@
+@font-face {
+    font-family: Avenir-Black;
+    src: url(Avenir-Black.ttf);
+}
+@font-face {
+    font-family: Avenir-Roman;
+    src: url(Avenir-Roman.ttf);
+}
 body
 {
-    background: #000;
+    background: #2f2d2e;
+    font-family: 'Avenir-Roman', sans-serif;
+}
+.header
+{
+    padding: 15px;
+    margin-bottom: 140px;
+}
+.white_line
+{
+    background: white;
+    height: 10px;
+    margin-bottom: 30px;
+}
+.modern_era_black_50
+{
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Avenir-Black', sans-serif;
+}
+.modern_era_black_24
+{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Avenir-Black', sans-serif;
+}
+.modern_era_black_18
+{
+    font-family: 'Avenir-Black', sans-serif;
+    font-size: 18px;
+}
+.modern_era_bold_18
+{
+    font-size: 18px;
+    color: #fff;
+}
+.modern_era_bold_12
+{
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+.text_box_label
+{
+    height: 30px;
+    color: #fff;
+}
+.text_box_area
+{
+    margin-top: -30px;
+}
+.text_box_line
+{
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+}
+.form_field
+{
+    margin-bottom: 30px;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.button_white
+{
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 40px;
+    font-family: 'Avenir-Roman', sans-serif;
+}
+.footer_links
+{
+    font-family: 'Avenir-Black', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    float: left;
+}
+.social_link
+{
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+    float: left;
+}
+.footer_links:hover, .footer_links:visited, .footer_links:active, .footer_links:focus, .social_link:hover, .social_link:visited, .social_link:active, .social_link:focus
+{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.last_sec_text
+{
+    color: #2f2d2e;
+    font-size: 18px;
+}
+.last_sec_text a , .last_sec_text a:hover, .last_sec_text a:visited, .last_sec_text a:active, .last_sec_text a:focus
+{
+    color: #2f2d2e;
+    text-decoration: underline;
 }
